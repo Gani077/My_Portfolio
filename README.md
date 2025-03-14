@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # My Portfolio
 
 This is my personal portfolio website designed to showcase my skills, projects, and achievements in a professional and visually appealing manner.
@@ -53,7 +52,7 @@ My_Portfolio/
 
 ## 🌍 Live Demo
 Check out the live version here:
-[Portfolio Live Link](https://yourportfolio.com)
+[Portfolio Live Link](https://gani077.github.io/My_Portfolio/)
 
 ## 📜 License
 This project is open-source and available under the **MIT License**.
