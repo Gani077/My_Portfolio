@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.cursor-circle {
+    width: 30px; /* Outer circle */
+    height: 30px;
+    border: 2px solid rgb(68, 0, 255);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.15s ease-out;
+}
+
+.cursor-dot {
+    width: 6px; /* Inner dot */
+    height: 6px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.1s ease-out;
+} 
+body.dark-mode .cursor-circle {
+    border-color: rgb(68, 0, 255);  
+}
+
+body.dark-mode .cursor-dot {
+    background-color: #ffffff;  
+}

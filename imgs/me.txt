@@ -1,0 +1,44 @@
+About Me
+
+I am SVS Ganesh, a passionate and driven BTech 2nd-year student specializing in Data Science at Pragati Engineering College. With a Diploma in Computer Science and Engineering, I have built a strong foundation in programming, data analytics, and AI-driven solutions.
+
+🚀 Career Aspirations
+
+I aspire to become a proficient Data Scientist, leveraging AI 🤖 and data analytics 📊 to create impactful solutions. My key interests lie in predictive analytics, machine learning, and AI-based decision systems to drive data-driven innovations.
+
+🛠 Skills & Proficiency
+
+Programming: Python 🐍, Java ☕, SQL, HTML & CSS 🎨, JavaScript
+
+Machine Learning: Regression Analysis 📉, Predictive Modeling
+
+Data Science Tools: Pandas, NumPy, Matplotlib 📊, Scikit-learn
+
+Full Stack Development: Python, Tkinter, API Integration
+
+
+💼 Experience
+
+✅ 6-month Internship – Python Full Stack Web Development at Anurag IT Solutions, Rajahmundry
+✅ 1-month Internship – Python Programming with Data Structures & Algorithms at YBI Foundation
+
+🔥 Projects
+
+1️⃣ Train Ticket Booking System 🚆 – A user-friendly Python and Tkinter application for seamless booking.
+2️⃣ Mileage Prediction – Regression Analysis 📈 – Applied ML techniques for fuel efficiency predictions in collaboration with YBI Foundation.
+3️⃣ AI-Powered Chatbot 🤖 – Developed using HTML, CSS, JavaScript, AI, and NLP for intelligent user interactions.
+
+🎓 Certifications & Achievements
+
+🏅 Forage Certificate – Solutions Architecture Job Simulation (Dec 2023)
+🏅 YBI Foundation Certificate – Python Programming with DSA (Jan 2024)
+🏅 Infosys Springboard – Computational Problem Solving (Jan 2024)
+🏅 Introduction to Machine Learning with Scikit-learn (Feb 2025)
+
+🔎 Technical Interests
+
+💡 Solving complex problems with data-driven insights
+🧠 Exploring the potential of AI
+🌍 Developing innovative web applications
+
+I am always eager to learn, collaborate, and innovate. Let’s connect and build something amazing together! 🚀
