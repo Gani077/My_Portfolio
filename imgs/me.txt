@@ -1,4 +1,4 @@
-About Me
+sAbout Me
 
 I am SVS Ganesh, a passionate and driven BTech 2nd-year student specializing in Data Science at Pragati Engineering College. With a Diploma in Computer Science and Engineering, I have built a strong foundation in programming, data analytics, and AI-driven solutions.
 
