@@ -324,15 +324,17 @@
         </div>
     </section>
 
-    <!-------------------------- Contact Me -------------------------->
+      <!-------------------------- Contact Me -------------------------->
 
     <section class="contact-content" id="contact">
         <div class="container">
             <div class="contact-title">
+                
                 <h4>Contact Me</h4>
                 <p>Get In Touch</p>
             </div>
             <div class="contact">
+                <form method="post" action="" name="contact-form">
                 <form id="contact-form">
                   <input type="text" name="NAME" id="name" placeholder="Name" required>
                   <input type="email" name="EMAIL" id="email" placeholder="Email" required> 
@@ -340,34 +342,27 @@
                   <input type="submit" value="Send Message" class="btn">
                 </form>
                 <span id="msg"></span>
+            </form>
               </div>
         </div>
     </section>
 
-    <script>
-    document.getElementById("contact-form").addEventListener("submit", function(e) {
-        e.preventDefault();
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmfr6pxlQpFF90OLKzrXFDmVQgkBqVeH8BYLA3BaFLiwo4f5aREWvEFhTSF2a70zLk/exec'
     
-        let data = {
-            name: document.getElementById("name").value,
-            email: document.getElementById("email").value,
-            message: document.getElementById("message").value
-        };
-    
-        fetch("https://script.google.com/macros/s/AKfycbzy6vLyBexFL6_TnS1GsCYJvrVeh3SLPQwhyjrP2COurMyaV0e6Cc478acJtMDigLn2eQ/exec", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(data)
-        })
-        .then(response => response.text())
-        .then(response => {
-            document.getElementById("msg").innerText = "Message sent successfully!";
-            document.getElementById("contact-form").reset();
-        })
-        .catch(error => console.error("Error:", error));
-    });
-    
+    const form = document.forms['contact-form']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thank You! your message has been sent."))
+        .then(response => {window.location.reload(); })
+        .catch(error => console.error('Error!', error.message))
+    })
 </script>
+
+
+   
     <!-------------------------- JS -------------------------->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"
         integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
