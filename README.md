@@ -60,6 +60,5 @@ This project is open-source and available under the **MIT License**.
 ## 📧 Contact
 For any inquiries, feel free to reach out via the contact form on the website or email me directly.
 
-=======
-# Responsive-Portfolio-Circle-
->>>>>>> b37bf5e (Initial commit)
+==============================================================================================================================================================================
+
